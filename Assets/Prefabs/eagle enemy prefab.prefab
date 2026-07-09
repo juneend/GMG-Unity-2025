@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5216521287187236112}
   - component: {fileID: 443788008671253538}
   - component: {fileID: 6527013119701889566}
+  - component: {fileID: 8142752749604008183}
   m_Layer: 0
   m_Name: eagle enemy prefab
   m_TagString: Enemy
@@ -197,3 +198,19 @@ MonoBehaviour:
   lookAxis: 0
   waypoints:
   - {x: 7.8142805, y: 0.12452459}
+--- !u!114 &8142752749604008183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5273655589865147664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dc868a9755e2243a05b219423775bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 6838195860478125434, guid: e92689983901e614598eaf70c6843573, type: 3}
+  range: 10
+  fireRate: 1
+  bulletSpeed: 7
